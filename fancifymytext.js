@@ -17,7 +17,7 @@ function boringText() {
     document.getElementById("Text").style.textDecoration = "none";
 }
 
-function letsMoo() {  
+function mooText() {  
     let str = document.getElementById("Text");
     str.style.textTransform = "uppercase";
     let parts = str.value.split(".");
